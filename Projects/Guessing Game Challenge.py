@@ -10,6 +10,7 @@ print("If your guess is farther than your most recent guess, I'll say you're get
 print("If your guess is closer than your most recent guess, I'll say you're getting WARMER")
 print("LET'S PLAY! OK? Thanks")
 
+#While loop for a valid guess
 guesses = [0]
 while True:
     guess = int(input("I'm thinking of a number between 1 and 100.\n What is your guess?"))
