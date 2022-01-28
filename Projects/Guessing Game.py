@@ -26,7 +26,7 @@ while True:
 
 #compare guess to our number
 while True:
-    guess = int(input("Give me a number between 1 and 100.\n What is your guess?"))
+    guess = int(input("Give me another number between 1 and 100.\n What is your guess?"))
 
     if guess < 1 or guess > 100:
         print('WRONG! try again: ')
@@ -51,3 +51,4 @@ while True:
             print('Warm.')
         else:
             print('Cold.')
+print(guesses[-2])
